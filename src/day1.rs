@@ -3,14 +3,14 @@ use std::io::{self, BufRead};
 use std::path::Path;
 
 pub fn run() {
-    let mut prev = 0;
+    let mut prev: i32 = -1;
     let mut count = 0;
     let mut total_recs = 0;
 
     if let Ok(lines) = read_lines("data/day1_input.txt") {
         for line in lines {
             if let Ok(val) = line {
-                let nval: u32 = val.parse::<u32>().unwrap();
+                let nval: i32 = val.parse::<i32>().unwrap();
                 if nval > prev {
                     count = count + 1;
                 }
