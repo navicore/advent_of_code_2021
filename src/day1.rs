@@ -19,8 +19,8 @@ pub fn part_a() {
             }
         }
     }
-    println!("part a: total measurments {}", total_recs);
-    println!("part a: increasing measurement count {}", count);
+    println!("day1 part a: total measurments {}", total_recs);
+    println!("day1 part a: increasing measurement count {}", count);
 }
 
 pub fn part_b() {
@@ -49,8 +49,8 @@ pub fn part_b() {
         }
     }
 
-    println!("part b: total windows {}", total_windows);
-    println!("part b: increasing window count {}", window_incr_count);
+    println!("day1 part b: total windows {}", total_windows);
+    println!("day1 part b: increasing window count {}", window_incr_count);
 }
 
 pub fn run() {
