@@ -17,7 +17,6 @@ pub fn part_a() {
                     "up" => depth = depth - amt,
                     _ => pos = pos + amt,
                 }
-                println!("cmd: {} amt: {}", cmd, amt);
             }
         }
     }
