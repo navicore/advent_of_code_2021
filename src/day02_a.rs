@@ -6,7 +6,7 @@ pub fn run() {
     let mut depth: u32 = 0;
     let mut pos: u32 = 0;
 
-    if let Ok(lines) = read_lines("data/day2_input.txt") {
+    if let Ok(lines) = read_lines("data/day02_input.txt") {
         for line in lines {
             if let Ok(val) = line {
                 let split = val.split_once(" ");

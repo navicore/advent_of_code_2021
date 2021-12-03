@@ -9,7 +9,7 @@ pub fn run() {
     let mut total_windows: u32 = 0;
     let mut window_incr_count: u32 = 0;
 
-    if let Ok(lines) = read_lines("data/day1_input.txt") {
+    if let Ok(lines) = read_lines("data/day01_input.txt") {
         for line in lines {
             if let Ok(val) = line {
                 let nval: u32 = val.parse::<u32>().unwrap();
