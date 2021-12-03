@@ -51,6 +51,7 @@ pub fn run() {
     println!("day03 part a: recs {}", rec_count);
     println!("day03 part a: measures {:?}", counts);
     println!("day03 part a: gamma {:?}", gamma);
+    println!("day03 part a: epsilon {:?}", epsilon);
 
     let mut gamma_str = String::new();
     for x in &gamma {
