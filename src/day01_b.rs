@@ -28,8 +28,11 @@ pub fn run() {
         }
     }
 
-    println!("day1 part b: total windows {}", total_windows);
-    println!("day1 part b: increasing window count {}", window_incr_count);
+    println!("day01 part b: total windows {}", total_windows);
+    println!(
+        "day01 part b: increasing window count {}",
+        window_incr_count
+    );
 }
 
 fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>

@@ -19,8 +19,8 @@ pub fn run() {
             }
         }
     }
-    println!("day1 part a: total measurments {}", total_recs);
-    println!("day1 part a: increasing measurement count {}", count);
+    println!("day01 part a: total measurments {}", total_recs);
+    println!("day01 part a: increasing measurement count {}", count);
 }
 
 fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>

@@ -1,6 +1,20 @@
+mod day01_a;
 mod day01_b;
-use day01_b::run;
+mod day02_a;
+mod day02_b;
+mod day03_a;
 
 fn main() {
-    run();
+    println!("---------------------");
+    day01_a::run();
+    println!("");
+    day01_b::run();
+    println!("---------------------");
+    day02_a::run();
+    println!("");
+    day02_b::run();
+    println!("---------------------");
+    day03_a::run();
+    println!("");
+    println!("---------------------");
 }

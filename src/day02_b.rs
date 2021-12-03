@@ -30,9 +30,9 @@ pub fn run() {
         }
     }
 
-    println!("day2 part b: horizontal pos {}", pos);
-    println!("day2 part b: depth {}", depth);
-    println!("day2 part b: product {}", pos * depth);
+    println!("day02 part b: horizontal pos {}", pos);
+    println!("day02 part b: depth {}", depth);
+    println!("day02 part b: product {}", pos * depth);
 }
 
 fn read_lines<P>(filename: P) -> io::Result<io::Lines<io::BufReader<File>>>
