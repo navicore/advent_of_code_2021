@@ -1,5 +1,5 @@
-mod day2;
-use day2::run;
+mod day2_a;
+use day2_a::run;
 
 fn main() {
     run();
