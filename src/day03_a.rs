@@ -25,7 +25,7 @@ pub fn run() {
     let mut calc = |my_rec_count: u32, my_counts: &[u32; 12]| {
         let mut idx = 0;
         let half_way = my_rec_count / 2;
-        for c in *my_counts {
+        for _ in *my_counts {
             if my_counts[idx] > half_way {
                 gamma[idx] = true;
             } else {
